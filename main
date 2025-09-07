@@ -22,6 +22,8 @@ else
     ScreenGui.Parent = CoreGui
 end
 
+print(game.PlaceId)
+
 local Toggles = {};
 local Options = {};
 
