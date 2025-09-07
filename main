@@ -20,8 +20,11 @@ if game.PlaceId == 91062538882606 then
     game.Players.LocalPlayer:Kick('A')
     ScreenGui.Parent = Players.LocalPlayer.PlayerGui
 else
+    print('123')
     ScreenGui.Parent = CoreGui
 end
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,100,0)
 
 print(game.PlaceId)
 
