@@ -17,7 +17,7 @@ ProtectGui(ScreenGui);
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global;
 if game.PlaceId == 91062538882606 then
     print('abc')
-    game.Players.LocalPlayer:Kick('A')
+    --game.Players.LocalPlayer:Kick('A')
     ScreenGui.Parent = Players.LocalPlayer.PlayerGui
 else
     print('123')
